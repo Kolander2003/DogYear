@@ -8,19 +8,17 @@ box-sizing: border-box;
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(41, 129, 223);
+    background-color: rgba(218, 214, 232, 0.758);
     
 }
-
-
 
 section{
     max-width: 500px;
     margin: 50px auto;
     padding: 20px;
-    background-color: honeydew;
+    background-color: rgba(185, 184, 201, 0.796);
     border-radius: 10px;
-    box-shadow: 0 4px 10px #0480f0;
+    box-shadow: 0 4px 10px #7d88c1;
 
 }
 h1{
@@ -37,7 +35,7 @@ label, input[number], button {
 }
 button{
 padding: 10px;
-background-color: rgba(245, 246, 249, 0.682);
+background-color: hsla(222, 89%, 50%, 0.682);
 border: none;
 border-radius: 10px;
 cursor: pointer;
@@ -45,10 +43,9 @@ cursor: pointer;
 }
 
 button:hover{
-    background-color: rgb(41, 129, 223);
+    background-color: rgb(41, 38, 238);
 }
 
 footer{
-
-background-color: #4097e270; text-align: center; padding: 20px; margin-top: 20px;>
+background-color: #1537d0df; text-align: center; padding: 20px; margin-top: 20px;
 }
