@@ -16,9 +16,9 @@ section{
     max-width: 500px;
     margin: 50px auto;
     padding: 20px;
-    background-color: rgba(185, 184, 201, 0.796);
+    background-color: rgba(155, 160, 222, 0.181);
     border-radius: 10px;
-    box-shadow: 0 4px 10px #7d88c1;
+    box-shadow: 0 4px 10px #172985;
 
 }
 h1{
@@ -35,7 +35,7 @@ label, input[number], button {
 }
 button{
 padding: 10px;
-background-color: hsla(222, 89%, 50%, 0.682);
+background-color: hsla(231, 84%, 42%, 0.682);
 border: none;
 border-radius: 10px;
 cursor: pointer;
@@ -43,9 +43,9 @@ cursor: pointer;
 }
 
 button:hover{
-    background-color: rgb(41, 38, 238);
+    background-color: rgb(79, 50, 142);
 }
 
 footer{
-background-color: #1537d0df; text-align: center; padding: 20px; margin-top: 20px;
+background-color: #5d30c6df; text-align: center; padding: 20px; margin-top: 20px;
 }
