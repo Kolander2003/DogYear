@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Years Calculator</title>
+    <link rel="stylesheet" href="Styles.css">
+    <script src = "script.js" defer> </script>
+
+    <!------
+    
+    Dog years calculator : American Veternarian
+    To estimate a dog's age is human years , a general guildelimne is condier the first year 
+    is equivalent of 15 years. The second year is roughly 9 human year and 
+    subsequent years can be estimated as 4-5 human years each.
+    
+    Enter Dog's Age 
+    Large /Small 
+    5 year old large : 15 + 9 +(5-2) * 5 = 39 Years
+    7 year old small dog : 15 + 9 + (7-2) * 4 = 44 years  
+    -->
+</head>
+<body>
+    <section>
+        <h1>Dog Age Calculator </h1>
+            <label for="txtDogAge"> Enter the Dog's Age : </label>
+            <input type="number" id="txtDogAge" min="0" placeholder="ex 3">
+            
+            <label for ="radDogSize"> Select Dog Size </label>
+            <label for ="radLarge>"><input type = "radio" id="radLarge" name= "radSize" Checked> Large</label>
+           
+            <label for ="radSmall>"><input type = "radio" id="radSmall" name= "radSize"> Small</label>
+            
+            <button id="btncalc"> Calculate Human Age </button>
+            <div id="result"> </div>
+    </section>
+      
+</body>
+</html>
